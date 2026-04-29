@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import FavoriteColor from './Components/FavoriteColor';
+import Car from './Components/Car';
+import Scooter from './Components/Scooter';
+import List from './Components/List';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <FavoriteColor />
+    <Car />
+    <Scooter /> */}
+    <List />
   </React.StrictMode>
 );
 
