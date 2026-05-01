@@ -7,6 +7,7 @@ import FavoriteColor from './Components/FavoriteColor';
 import Car from './Components/Car';
 import Scooter from './Components/Scooter';
 import List from './Components/List';
+import Timer from './Components/Timer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,8 @@ root.render(
     {/* <FavoriteColor />
     <Car />
     <Scooter /> */}
-    <List />
+    {/* <List /> */}
+    <Timer />
   </React.StrictMode>
 );
 
