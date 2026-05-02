@@ -8,17 +8,19 @@ import Car from './Components/Car';
 import Scooter from './Components/Scooter';
 import List from './Components/List';
 import Timer from './Components/Timer';
+import MyForm from './Components/MyForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <>
+    <MyForm/>
     {/* <App /> */}
     {/* <FavoriteColor />
-    <Car />
-    <Scooter /> */}
+    <Car /> */} 
+    {/* <Scooter /> */}
     {/* <List /> */}
-    <Timer />
-  </React.StrictMode>
+     {/* <Timer />  */}
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
